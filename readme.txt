@@ -8,6 +8,5 @@
 8.Create the EC2 instance
 9.Verify that everything is set up correctly
 
-https://medium.com/strategio/using-terraform-to-create-aws-vpc-ec2-and-rds-instances-c7f3aa416133
+Ref: https://medium.com/strategio/using-terraform-to-create-aws-vpc-ec2-and-rds-instances-c7f3aa416133
 
-ssh-keygen -t rsa -b 4096 -m pem -f tutorial_kp && openssl rsa -in tutorial_kp -outform pem && chmod 400 tutorial_kp.pem
